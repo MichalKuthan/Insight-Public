@@ -12,7 +12,7 @@ Client Dashboard: Client users can view and manage their contracts and personal 
 To set up the Insight application locally, follow these steps:
 
 **1. Clone the repository:**<br>
-git clone https://github.com/michalkuthan/Insight.git<br>
+git clone https://github.com/MichalKuthan/Insight-public.git<br>
 
 **2.Navigate to the project directory:**<br>
 cd Insight
