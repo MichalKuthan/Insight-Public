@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="/stylesheets/style.css" type="text/css">
+</head>
+<body>
+    <header>
+        <h1>Admin Dashboard</h1>
+        <div class="header-right">
+            <!-- this button is not visible yet forb admin role
+            <button id="settingsButton"><img src="/images/settings_icon.png" alt="Edit" style="width: 20px; height: 20px;"></button> -->
+            
+            <button id="logoutButton">Logout</button>
+        </div>
+    </header>
+    <div id="formContainer" class="hidden">
+        <!-- The create client form will be dynamically injected here -->
+    </div>
+    <div id="clientManagement">
+        <button id="createClientButton">Create New Client</button>
+        <table id="clientTable">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Surname</th>
+                    <th>Phone</th>
+                    <th>Email</th>
+                    <th>Address</th>
+                    <th>Rating</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Client rows will be dynamically added here -->
+            </tbody>
+        </table>
+    </div>
+    <script src="/javascripts/admin-dashboard.js" type="module"></script>
+</body>
+</html>

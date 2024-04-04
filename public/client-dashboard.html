@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Client Dashboard</title>
+    <link rel="stylesheet" href="/stylesheets/style.css" type="text/css">
+</head>
+<body>
+    <header>
+        <h1 id="dashboardTitle">Dashboard</h1>
+        <div class="header-right">
+            <button id="settingsButton"><img src="/images/settings_icon.png" alt="Edit" style="width: 20px; height: 20px;"></button>
+            <button id="logoutButton">Logout</button>
+        </div>
+    </header>
+
+    <div id="mainContent">
+        <div id="formContainer">
+            <!-- The create contract form will be dynamically injected here -->
+        </div>
+        <div id="contractManagement">
+            <button id="createContractButton">Create New Contract</button>
+            <table id="contractTable">
+                <thead>
+                    <tr>
+                        <th class="sortable" data-sort-order="asc">Contract ID <span class="sort-arrow"></span></th>
+                        <th class="sortable" data-sort-order="asc">Client Name <span class="sort-arrow"></span></th>
+                        <th class="sortable" data-sort-order="asc">Service <span class="sort-arrow"></span></th>
+                        <th class="sortable" data-sort-order="asc">Start Date <span class="sort-arrow"></span></th>
+                        <th class="sortable" data-sort-order="asc">End Date <span class="sort-arrow"></span></th>
+                        <th class="sortable" data-sort-order="asc">Status <span class="sort-arrow"></span></th>
+                        <th class="sortable" data-sort-order="asc">Attachment<span class="sort-arrow"></span></th>
+                        <th class="sortable" data-sort-order="asc">Actions<span class="sort-arrow"></span></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Contract rows will be dynamically added here -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div id="clientManagement" class="hidden">
+        <!-- Client management/settings form will be dynamically injected here -->
+    </div>
+
+    <script src="/javascripts/client-dashboard.js" type="module"></script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+{
+  "name": "insight",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000I\u0000n\u0000s\u0000i\u0000g\u0000h\u0000t\u0000\r\u0000 \u0000#\u0000 \u0000I\u0000n\u0000s\u0000i\u0000g\u0000h\u0000t\u0000\r\u0000 \u0000#\u0000 \u0000I\u0000n\u0000s\u0000i\u0000g\u0000h\u0000t\u0000\r\u0000 \u0000#\u0000 \u0000I\u0000n\u0000s\u0000i\u0000g\u0000h\u0000t\u0000\r\u0000 \u0000#\u0000 \u0000I\u0000n\u0000s\u0000i\u0000g\u0000h\u0000t\u0000A\u0000p\u0000p\u0000\r\u0000 \u0000#\u0000 \u0000I\u0000n\u0000s\u0000i\u0000g\u0000h\u0000t\u0000A\u0000p\u0000p\u0000\r\u0000 \u0000",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michalkuthan/Insight.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/michalkuthan/Insight/issues"
+  },
+  "homepage": "https://github.com/michalkuthan/Insight#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "bcryptjs": "^2.4.3",
+    "express": "^4.19.2",
+    "express-session": "^1.18.0",
+    "mongoose": "^8.2.4",
+    "multer": "^1.4.5-lts.1"
+  }
+}
